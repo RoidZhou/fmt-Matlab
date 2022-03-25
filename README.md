@@ -6,7 +6,7 @@
 1. 产生两个等大的正方形图像块
 
 2. 对这两个图像块分别做傅里叶变换、对数极坐标变换（统称傅里叶梅林变换），下图就是变换结果
-![]https://github.com/RoidZhou/fmt-Matlab/blob/main/img/fmtlp.jpg
+![](https://github.com/RoidZhou/fmt-Matlab/blob/main/img/fmtlp.jpg)
 3. 再做傅里叶变换，然后相位相关，再逆变换就得到了响应图
 
 4. 寻找响应图最大值位置，然后查表得到旋转角度和缩放倍率
@@ -17,4 +17,4 @@
 
 5. 同样适用相位相关求平移
 下图是计算出的响应图像
-![]https://github.com/RoidZhou/fmt-Matlab/blob/main/img/fmtrsp.jpg
+![](https://github.com/RoidZhou/fmt-Matlab/blob/main/img/fmtrsp.jpg)

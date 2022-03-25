@@ -1,9 +1,8 @@
 # fmt-Matlab
-This blog post details the properties of the Fourier-Merlin transform and its application in the image registration process.
-#一、原理
+一、原理
         将笛卡尔坐标系下的旋转和缩放转化为新坐标系下的平移，通过相位相关求得平移量就得到了缩放倍率和旋转角度。根据倍率和旋转角度做矫正，再直接相位相关求得平移量。于是就得到了两幅图像的相对位移、旋转和缩放，可以用于图像配准。
 
-#二、步骤
+二、步骤
 1. 产生两个等大的正方形图像块
 
 2. 对这两个图像块分别做傅里叶变换、对数极坐标变换（统称傅里叶梅林变换），右图就是变换结果
